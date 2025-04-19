@@ -1,11 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: "Open Sans", sans-serif;
 }
 
-#page {
-  box-sizing: border-box;
-  width: 1120px;
-  margin: 88px auto 137px;
+body{
+  background-color: #F5F4F0;
+  width: 1280px;
+}
+
+main div img {
+  width: 1280px;
+  object-fit: cover; 
+  margin-top: 44px;
+  border-radius: 28px;
 }
 
 #headline {
@@ -20,7 +31,13 @@ h1 {
   color: #1B1B1B;
   font-size: 36px;
   font-weight: bold;
-  line-height: auto;
+}
+
+#subtitle {
+  box-sizing: border-box;
+  font-style: italic;
+  text-align: center;
+  color: #333333;
 }
 
 h2 {
@@ -30,6 +47,11 @@ h2 {
   line-height: auto;
 }
 
+#paragraph {
+  color: #333333;
+  font-size: 16px;
+}
+
 h3 {
   color: #1B1B1B;
   font-size: 28px;
@@ -37,6 +59,20 @@ h3 {
   line-height: auto;
 }
 
-img {
-  border-radius: 28px;
+#topics{
+  color: #1B1B1B;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: auto;
+}
+
+ul li::marker {
+  content: "・";
+  color: #333333;
+  font-size: 2em;
+  white-space: unset;
+}
+
+li {
+  vertical-align: center;
 }
