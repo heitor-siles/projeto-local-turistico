@@ -1,0 +1,42 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 1120px;
+  margin: 88px auto 137px;
+}
+
+#headline {
+  color: #E1624F;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #1B1B1B;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: auto;
+}
+
+h2 {
+  color: #1B1B1B;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: auto;
+}
+
+h3 {
+  color: #1B1B1B;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: auto;
+}
+
+img {
+  border-radius: 28px;
+}
