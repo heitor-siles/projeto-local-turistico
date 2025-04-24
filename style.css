@@ -7,16 +7,14 @@
   font-family: "Open Sans", sans-serif;
 }
 
-body{
+body {
   background-color: #F5F4F0;
-  width: 1280px;
 }
 
-main div img {
-  width: 1280px;
-  object-fit: cover; 
-  margin-top: 44px;
-  border-radius: 28px;
+#page {
+  box-sizing: border-box;
+  margin: 88px auto 137px auto;
+  width: 1120px;
 }
 
 #headline {
@@ -31,20 +29,40 @@ h1 {
   color: #1B1B1B;
   font-size: 36px;
   font-weight: bold;
+  padding-bottom: 40px;
 }
+
+div main img {
+  width: 1120px;
+  object-fit: cover; 
+  border-radius: 28px;
+}
+
 
 #subtitle {
   box-sizing: border-box;
   font-style: italic;
   text-align: center;
   color: #333333;
+  padding-top: 24px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9d9;
+  margin: 40px 0;
+}
+
+#title {
+  margin: 64px 0;
 }
 
 h2 {
   color: #1B1B1B;
   font-size: 32px;
   font-weight: bold;
-  line-height: auto;
+  padding-bottom: 8px;
 }
 
 #paragraph {
@@ -56,7 +74,7 @@ h3 {
   color: #1B1B1B;
   font-size: 28px;
   font-weight: bold;
-  line-height: auto;
+  padding: 20px 0 4px 0;
 }
 
 #topics{
@@ -69,10 +87,29 @@ h3 {
 ul li::marker {
   content: "・";
   color: #333333;
-  font-size: 2em;
-  white-space: unset;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-li {
-  vertical-align: center;
+#blue {
+  margin-bottom: 48px;
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+#rainbow {
+  font-weight: bold;
+  align-items: ;
+}
+
+#rainbow li:nth-child(1) {
+  color: #591B98;
+}
+
+#rainbow li:nth-child(2) {
+  color: #E5245E;
+}
+
+#rainbow li:nth-child(3) {
+  color: #E95E10;
 }
