@@ -1,6 +1,7 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  color: #333333;
 }
 
 :root {
@@ -13,7 +14,7 @@ body {
 
 #page {
   box-sizing: border-box;
-  margin: 88px auto 137px auto;
+  margin: 88px auto 65px auto;
   width: 1120px;
 }
 
@@ -43,7 +44,6 @@ div main img {
   box-sizing: border-box;
   font-style: italic;
   text-align: center;
-  color: #333333;
   padding-top: 24px;
 }
 
@@ -66,8 +66,15 @@ h2 {
 }
 
 #paragraph {
-  color: #333333;
+  font-weight: normal;
   font-size: 16px;
+}
+
+ol {
+  padding-left: 40px;
+  padding-bottom: 4px;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 h3 {
@@ -81,17 +88,21 @@ h3 {
   color: #1B1B1B;
   font-weight: bold;
   font-size: 16px;
-  line-height: auto;
 }
+
 
 ul li::marker {
-  content: "・";
   color: #333333;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 14px;
 }
 
-#blue {
+ul {
+  line-height: 1.4rem;
+  padding-left: 24px;
+  text-align: middle;
+}
+
+#blue li {
   margin-bottom: 48px;
   color: #0C51A7;
   font-weight: bold;
@@ -99,7 +110,6 @@ ul li::marker {
 
 #rainbow {
   font-weight: bold;
-  align-items: ;
 }
 
 #rainbow li:nth-child(1) {
@@ -112,4 +122,22 @@ ul li::marker {
 
 #rainbow li:nth-child(3) {
   color: #E95E10;
+  font-weight: bold;
+}
+
+#final-description {
+  text-align: center;
+}
+
+footer {
+  font-family: "Alice";
+  text-align: center;
+  padding-top: 48px;
+  color: #333333;
+  line-height: 150%;
+}
+
+footer img {
+  vertical-align: baseline;
+  padding: 0 2px 0 2px;
 }
