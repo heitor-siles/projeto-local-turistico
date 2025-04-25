@@ -91,15 +91,17 @@ h3 {
 }
 
 
-ul li::marker {
-  color: #333333;
-  font-size: 14px;
+ul {
+  padding-left: 6px;
+  list-style: none;
 }
 
-ul {
-  line-height: 1.4rem;
-  padding-left: 24px;
-  text-align: middle;
+ul li::before {
+  content: "•";
+  padding-right: 2px;
+  color: #333333;
+  font-size: 14px;
+  display: inline-block;
 }
 
 #blue li {
