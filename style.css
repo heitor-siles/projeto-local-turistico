@@ -131,7 +131,7 @@ ul li::before {
 }
 
 footer {
-  font-family: "Alice";
+  font-family: "Alice", serif;
   text-align: center;
   padding-top: 48px;
   color: #333333;
