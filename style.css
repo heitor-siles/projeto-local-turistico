@@ -124,7 +124,6 @@ ul li::before {
 
 #rainbow li:nth-child(3) {
   color: #E95E10;
-  font-weight: bold;
 }
 
 #final-description {
